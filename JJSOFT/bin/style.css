@@ -1,0 +1,115 @@
+*{
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+	list-style: none; 
+	/* 리스트 점없애기 */
+	text-decoration: none; 
+	/* 바로가기 밑줄 색없애기 */
+	border-collapse: collapse; 
+	/* 테이블 선떨어진거 붙이기 */
+	margin: 0px;
+	padding: 0px;
+	color: #000;
+}
+
+.intro_bg{
+   background-image:url("image/intro.png");
+   width:cover;
+   height:1401px;
+}
+
+.header{
+    /* display:flex; */
+    position: absolute;
+    width:1920px;
+    height:54px;
+    left:0px;
+    top:70px;
+    /* margin:auto; */
+    background-color: rgba(19, 19, 19, 0.1);
+}
+
+.nav{
+    display:flex;
+    flex-direction: row;
+    align-items:flex-start;
+    padding:0px;
+
+    position: absolute;
+    width: 594px;
+    height: 20px;
+    left: 70px;
+    top: 14px;
+}
+
+.nav > li > a {
+    color:#000;
+}
+
+.nav > li
+{
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 130%;
+
+color: #000000;
+
+}
+
+#Home
+{
+position: static;
+width: 83px;
+height: 20px;
+left: calc(50% - 83px/2 - 255.5px);
+top: 0px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 80px;
+}
+
+#Details
+{
+position: static;
+width: 91px;
+height: 20px;
+left: calc(50% - 91px/2 - 88.5px);
+top: 0px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 80px;
+}
+
+#Store
+{
+position: static;
+width: 72px;
+height: 20px;
+left: calc(50% - 72px/2 + 73px);
+top: 0px;
+
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 0px 80px;
+}
+
+#Support
+{
+position: static;
+width: 108px;
+height: 20px;
+left: calc(50% - 108px/2 + 243px);
+top: 0px;
+
+flex: none;
+order: 3;
+flex-grow: 0;
+margin: 0px 80px;
+}
